@@ -144,6 +144,5 @@
         android:layout_weight="1"
         android:orientation="horizontal"
         android:background="@color/downBar">
-
     </LinearLayout>
 </LinearLayout>
