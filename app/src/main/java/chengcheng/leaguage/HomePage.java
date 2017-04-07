@@ -50,7 +50,7 @@ public class HomePage extends AppCompatActivity {
     private void initView() {
         viewPager = (ViewPager) findViewById(R.id.viewPager);
         ViewGroup group = (ViewGroup) findViewById(R.id.viewGroup);
-        imgIdArray = new int[]{R.drawable.WechatIMG800};
+        imgIdArray = new int[]{R.drawable.image1};
         tips = new ImageView[imgIdArray.length];
         for (int i = 0; i < tips.length; i++) {
             ImageView imageView = new ImageView(this);

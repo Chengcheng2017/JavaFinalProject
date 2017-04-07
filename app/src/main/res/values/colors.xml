@@ -3,6 +3,8 @@
     <color name="colorPrimary">#D32F2F</color>
     <color name="colorPrimaryDark">#D32F2F</color>
     <color name="colorAccent">#D32F2F</color>
-    <color name="downBar">#E0E0E0</color>
+    <color name="downBar">#EEEEEE</color>
+    <color name="lightGrey">#E0E0E0</color>
+    <color name="darkFont">#212121</color>
 
 </resources>
