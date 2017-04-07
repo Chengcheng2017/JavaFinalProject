@@ -6,5 +6,6 @@
     <color name="downBar">#EEEEEE</color>
     <color name="lightGrey">#E0E0E0</color>
     <color name="darkFont">#212121</color>
+    <color name="white">#FFFFFF</color>
 
 </resources>

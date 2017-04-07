@@ -8,4 +8,5 @@
     <dimen name="text_big">24dp</dimen>
     <dimen name="text_middle">20dp</dimen>
     <dimen name="text_small">16dp</dimen>
+    <dimen name="text_extraSmall">13dp</dimen>
 </resources>
