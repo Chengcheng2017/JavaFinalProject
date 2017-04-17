@@ -11,6 +11,7 @@ public class User {
     private int age;
     private String country;
     private ArrayList<Course> courses;
+    private String email;
 
     public User(String name, int age, String country, ArrayList<Course> courses) {
         this.name = name;
