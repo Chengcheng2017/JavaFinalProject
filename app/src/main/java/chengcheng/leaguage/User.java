@@ -19,5 +19,8 @@ public class User {
         this.country = country;
         this.courses = courses;
     }
+
+    public User() {
+    }
 }
 

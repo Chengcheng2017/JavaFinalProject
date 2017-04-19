@@ -8,10 +8,41 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="chengcheng.leaguage.Welcome">
+    tools:context="chengcheng.leaguage.Welcome"
+    android:background="@drawable/welcome_background">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Leaguage"
+        android:textColor="#f9faf9"
+        android:textSize="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="78dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="Log In"
+        android:textSize="@dimen/text_small"
+        android:layout_marginBottom="43dp"
+        android:id="@+id/button3"
+        android:layout_above="@+id/signup_button"
+        android:layout_centerHorizontal="true"
+        android:onClick="Login" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_small"
+        android:text="Sign Up"
+        android:layout_marginBottom="82dp"
+        android:id="@+id/signup_button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/button3"
+        android:layout_alignEnd="@+id/button3"
+        android:onClick="Signup" />
 </RelativeLayout>

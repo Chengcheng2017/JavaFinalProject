@@ -8,6 +8,45 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="chengcheng.leaguage.SignUp">
+    tools:context="chengcheng.leaguage.SignUp"
+    android:background="@drawable/signup_background">
+
+
+    <EditText
+        android:id="@+id/email_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:background="@color/white"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:layout_marginTop="39dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/password_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:background="@color/white"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:inputType="textPassword"
+        android:layout_marginTop="43dp"
+        android:layout_below="@+id/email_edit_text"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textSize="@dimen/text_small"
+        android:id="@+id/signup_button"
+        android:layout_marginTop="33dp"
+        android:onClick="SignUp"
+        android:layout_below="@+id/password_edit_text"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

@@ -1,11 +1,8 @@
 package chengcheng.leaguage;
 
-import android.support.v4.view.PagerAdapter;
-import android.support.v4.view.ViewPager;
-import android.support.v4.view.ViewPager.OnPageChangeListener;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
+import android.support.v4.view.ViewPager;
+import android.support.v7.app.AppCompatActivity;
 import android.view.ViewGroup;
 import android.view.ViewGroup.LayoutParams;
 import android.widget.ArrayAdapter;
@@ -14,7 +11,6 @@ import android.widget.LinearLayout;
 import android.widget.Spinner;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class HomePage extends AppCompatActivity {
     private Spinner lanList;
@@ -57,7 +53,7 @@ public class HomePage extends AppCompatActivity {
             imageView.setLayoutParams(new LayoutParams(10, 10));
             tips[i] = imageView;
             if (i == 0) {
-                tips[i].setBackgroundResource(R.drawable.indicator_focused);
+                // tips[i].setBackgroundResource(R.drawable.indicator_focused);
             } else {
                 tips[i].setBackgroundResource(R.drawable.indicator);
             }
