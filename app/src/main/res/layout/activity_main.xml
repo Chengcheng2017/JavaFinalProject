@@ -32,7 +32,7 @@
         android:id="@+id/button3"
         android:layout_above="@+id/signup_button"
         android:layout_centerHorizontal="true"
-        android:onClick="Login" />
+        android:onClick="userLogIn" />
 
     <Button
         android:layout_width="wrap_content"
@@ -44,5 +44,5 @@
         android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/button3"
         android:layout_alignEnd="@+id/button3"
-        android:onClick="Signup" />
+        android:onClick="userSignUp" />
 </RelativeLayout>
