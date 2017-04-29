@@ -1,4 +1,4 @@
-package chengcheng.leaguage.courseDe;
+package chengcheng.leaguage.LearningP;
 
 import android.support.v4.view.PagerAdapter;
 import android.view.View;
