@@ -16,7 +16,7 @@
         <activity android:name=".Profile" />
         <activity android:name=".SignUp" />
         <activity android:name=".Recommendation" />
-        <activity android:name=".LearningPath" />
+        <activity android:name=".courseDe.LearningPath" />
         <activity android:name=".Friends" />
         <activity android:name=".CourseDetails" />
         <activity android:name=".SplashActivity">
