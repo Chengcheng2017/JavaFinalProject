@@ -33,9 +33,9 @@ public class courseViewHolder extends RecyclerView.ViewHolder {
     }
 
     public void bind(final Course course) {
-        courseNameView.setText(course.getName());
-        courseInfoView.setText(course.getIntro());
-        coursePhotoView.setImageResource(course.getImageId());
+        courseNameView.setText(course.name);
+        courseInfoView.setText(course.intro);
+        coursePhotoView.setImageResource(course.imageId);
         cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

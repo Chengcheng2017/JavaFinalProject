@@ -1,8 +1,12 @@
 package chengcheng.leaguage.courseDe;
 
 import android.content.Context;
+import android.support.v7.widget.RecyclerView;
 import android.util.AttributeSet;
 import android.widget.FrameLayout;
+
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 import chengcheng.leaguage.R;
 
@@ -11,6 +15,11 @@ import chengcheng.leaguage.R;
  */
 
 public class courseWished extends FrameLayout {
+    private DatabaseReference courseReference = FirebaseDatabase.getInstance().getReference("course");
+
+    private RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
+    private courseAdapter courseAdapter  = new courseAdapter(courseReference);
+
     public courseWished(Context context) {
         super(context);
         init();
@@ -31,7 +40,8 @@ public class courseWished extends FrameLayout {
         init();
     }
 
-    public void init(){
-        inflate(getContext(), R.layout.course_wish_list,this);
+    public void init() {
+        inflate(getContext(), R.layout.course_wish_list, this);
+        //recyclerView.setAdapter(courseAdapter);
     }
 }

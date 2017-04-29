@@ -7,9 +7,12 @@ import java.util.ArrayList;
  */
 
 public class Course {
-    private String name;
-    private String intro;
-    private int imageId;
+    public String name;
+    public String intro;
+    public int imageId;
+
+    public Course() {
+    }
 
     public Course(String name, String intro, int imageId) {
         this.name = name;
