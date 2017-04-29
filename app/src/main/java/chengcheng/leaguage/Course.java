@@ -9,11 +9,23 @@ import java.util.ArrayList;
 public class Course {
     private String name;
     private String intro;
-    private ArrayList<String> content;
+    private int imageId;
 
-    public Course(String name, String intro, ArrayList<String> content) {
+    public Course(String name, String intro, int imageId) {
         this.name = name;
         this.intro = intro;
-        this.content = content;
+        this.imageId = imageId;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getIntro() {
+        return intro;
+    }
+
+    public int getImageId() {
+        return imageId;
     }
 }

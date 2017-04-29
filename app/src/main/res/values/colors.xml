@@ -7,5 +7,7 @@
     <color name="lightGrey">#E0E0E0</color>
     <color name="darkFont">#212121</color>
     <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="lightDark">#424242</color>
 
 </resources>
