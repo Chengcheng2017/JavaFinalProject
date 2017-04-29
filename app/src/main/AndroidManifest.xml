@@ -9,11 +9,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".Welcome">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".LogIn" />
         <activity android:name=".HomePage" />
@@ -22,7 +18,14 @@
         <activity android:name=".Recommendation" />
         <activity android:name=".LearningPath" />
         <activity android:name=".Friends" />
-        <activity android:name=".CourseDetails"></activity>
+        <activity android:name=".CourseDetails" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
