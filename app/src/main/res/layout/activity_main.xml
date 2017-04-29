@@ -9,40 +9,43 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="chengcheng.leaguage.Welcome"
-    android:background="@drawable/welcome_background">
+    android:background="@drawable/welcom_background">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Leaguage"
+        android:text="LEAGUAGE"
         android:textColor="#f9faf9"
-        android:textSize="40dp"
+        android:textSize="@dimen/text_extraBig"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="78dp" />
+        android:layout_marginTop="78dp"
+        android:fontFamily="serif"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_middle"
+        android:text="Create Account"
+        android:layout_marginBottom="31dp"
+        android:id="@+id/signup_button"
+        android:onClick="userSignUp"
+        android:textColor="@color/lightGrey"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingLeft="40dp"
         android:paddingRight="40dp"
-        android:text="Log In"
-        android:textSize="@dimen/text_small"
-        android:layout_marginBottom="43dp"
+        android:text="Log In with Email"
+        android:textSize="@dimen/text_big"
+        android:layout_marginBottom="36dp"
         android:id="@+id/button3"
+        android:onClick="userLogIn"
+        style="@style/ButtonAppTheme"
+        android:textAllCaps="false"
         android:layout_above="@+id/signup_button"
-        android:layout_centerHorizontal="true"
-        android:onClick="userLogIn" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="@dimen/text_small"
-        android:text="Sign Up"
-        android:layout_marginBottom="82dp"
-        android:id="@+id/signup_button"
-        android:layout_alignParentBottom="true"
-        android:layout_alignStart="@+id/button3"
-        android:layout_alignEnd="@+id/button3"
-        android:onClick="userSignUp" />
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>

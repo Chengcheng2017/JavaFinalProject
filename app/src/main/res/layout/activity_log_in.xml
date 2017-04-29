@@ -17,7 +17,7 @@
         android:layout_height="wrap_content"
         android:hint="Email"
         android:inputType="textEmailAddress"
-        android:background="@color/white"
+        android:background="@null"
         android:paddingBottom="10dp"
         android:paddingTop="10dp"
         android:layout_marginTop="39dp"
@@ -29,7 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Password"
-        android:background="@color/white"
+        android:background="@null"
         android:paddingBottom="10dp"
         android:paddingTop="10dp"
         android:inputType="textPassword"
@@ -41,12 +41,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Log In"
-        android:textSize="@dimen/text_small"
         android:id="@+id/signup_button"
         android:layout_marginTop="34dp"
         android:onClick="logIn"
         android:layout_below="@+id/password_edit_text"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        style="@style/ButtonAppTheme"/>
 
 
 </RelativeLayout>

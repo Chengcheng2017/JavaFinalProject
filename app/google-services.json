@@ -1,0 +1,58 @@
+{
+  "project_info": {
+    "project_number": "1051453780382",
+    "firebase_url": "https://javafinalproject-master.firebaseio.com",
+    "project_id": "javafinalproject-master",
+    "storage_bucket": "javafinalproject-master.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1051453780382:android:45860ca56ffb86ce",
+        "android_client_info": {
+          "package_name": "chengcheng.leaguage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1051453780382-j6g9rkfiobfv67i48afd2m3b61abuij6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "chengcheng.leaguage",
+            "certificate_hash": "6c4535cf43a37e7328c77ed063f92018c868755a"
+          }
+        },
+        {
+          "client_id": "1051453780382-svtbo6km3oe3kfrd2n785i2csj93insn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBG4OljX4BDdpgYqj6VbH_Rn2PUT_jqsuo"
+        },
+        {
+          "current_key": "AIzaSyDeshAJsh1nd_mWGWjOGPWXkgGTvdIq-Gs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1051453780382-svtbo6km3oe3kfrd2n785i2csj93insn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
