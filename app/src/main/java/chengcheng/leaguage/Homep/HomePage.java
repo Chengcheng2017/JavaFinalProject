@@ -1,10 +1,14 @@
 package chengcheng.leaguage.Homep;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.support.design.widget.BottomNavigationView;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewGroup.LayoutParams;
@@ -12,10 +16,12 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import chengcheng.leaguage.Profile;
 import chengcheng.leaguage.R;
 
 public class HomePage extends AppCompatActivity {
@@ -35,6 +41,31 @@ public class HomePage extends AppCompatActivity {
         setContentView(R.layout.activity_home_page);
 
         initViews();
+
+        BottomNavigationView bottomNavigationView = (BottomNavigationView)
+                findViewById(R.id.bottom_navigation);
+
+        bottomNavigationView.setOnNavigationItemSelectedListener(
+                new BottomNavigationView.OnNavigationItemSelectedListener() {
+                    @Override
+                    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                        switch (item.getItemId()) {
+                            case R.id.action_home:
+                                break;
+
+                            case R.id.action_information:
+                                Toast.makeText(HomePage.this, "Please ignore this button...",
+                                        Toast.LENGTH_LONG).show();
+                                break;
+
+                            case R.id.action_profile:
+                                Intent intent = new Intent(HomePage.this, Profile.class);
+                                startActivity(intent);
+                                break;
+                        }
+                        return true;
+                    }
+                });
     }
 
     private void initViews() {
