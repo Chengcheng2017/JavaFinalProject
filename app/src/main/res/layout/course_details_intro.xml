@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/de_course_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Advance English"
+        android:textColor="@color/black"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/de_course_learned"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="345 learned"
+        android:textColor="@color/lightDark"
+        android:textSize="14dp" />
+
+    <View style="@style/Divider"/>
+
+    <TextView
+        android:id="@+id/de_course_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="$199.00"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"/>
+    <View style="@style/BiggerDivider"/>
+
+    <TextView
+        android:id="@+id/de_course_introduction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Course Introduction"
+        android:textColor="@color/darkFont"
+        android:textSize="20dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="10dp"/>
+
+    <TextView
+        android:id="@+id/de_course_intro_con"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Welocome to Advance English! Join us to start a brand new journey!"
+        android:textColor="@color/darkFont"
+        android:textSize="16dp" />
+
+    <View style="@style/Divider"/>
+
+    <TextView
+        android:id="@+id/de_course_target"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Target Students"
+        android:textColor="@color/darkFont"
+        android:textSize="20dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="10dp"/>
+
+    <TextView
+        android:id="@+id/de_course_target_con"
+        android:layout_height="70dp"
+        android:layout_width="match_parent"
+        android:text="This course is suitable for students who have took the course Intro to English."
+        android:textColor="@color/darkFont"
+        android:textSize="16dp" />
+
+
+</LinearLayout>
