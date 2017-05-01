@@ -16,11 +16,10 @@
             android:id="@+id/course_pic"
             android:layout_width="120dp"
             android:layout_height="70dp"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
             android:layout_marginRight="16dp"
             tools:src="@drawable/ic_profile"
-            />
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
 
         <TextView
             android:id="@+id/course_name"

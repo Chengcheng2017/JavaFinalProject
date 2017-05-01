@@ -16,12 +16,13 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
-import chengcheng.leaguage.Homep.HomePage;
-
 public class SignUp extends AppCompatActivity {
 
     private EditText emailAddress;
     private EditText password;
+    private EditText userName;
+    private EditText userAge;
+    private EditText country;
 
     private FirebaseAuth auth = FirebaseAuth.getInstance();
     private FirebaseDatabase database = FirebaseDatabase.getInstance();
@@ -35,6 +36,9 @@ public class SignUp extends AppCompatActivity {
 
         emailAddress = (EditText) findViewById(R.id.email_edit_text);
         password = (EditText) findViewById(R.id.password_edit_text);
+        userName = (EditText) findViewById(R.id.userName_edit_text);
+        userAge = (EditText) findViewById(R.id.age_edit_text);
+        country = (EditText) findViewById(R.id.country_edit_text);
     }
 
 
@@ -50,14 +54,16 @@ public class SignUp extends AppCompatActivity {
                         if (!task.isSuccessful()) {
                             Toast.makeText(SignUp.this, task.getException().toString(), Toast.LENGTH_SHORT).show();
                         } else {
-                            Toast.makeText(SignUp.this, task.getResult().getUser().getEmail() + " signed up successful",
-                                    Toast.LENGTH_SHORT).show();
+                            String id = userName.getText().toString();
+                            User u = new User(userName, Integer.parseInt(userAge.getText().toString()), country.getText().toString(), );
+                            userRef.child(id).setValue(u);
+
                             finish();
 //                            FirebaseUser user = auth.getCurrentUser();
 //                            FirebaseDatabase database = FirebaseDatabase.getInstance();
 //                            DatabaseReference userRef = database.getReference(user.getUid() + "/info");
 //                            userRef.child("name").setValue("xi wei");
-                            Intent intent = new Intent(SignUp.this, HomePage.class);
+                            Intent intent = new Intent(SignUp.this, Recommendation.class);
                             startActivity(intent);
                         }
 
