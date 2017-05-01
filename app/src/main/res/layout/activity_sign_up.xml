@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_sign_up"
     android:layout_width="match_parent"
@@ -11,6 +15,16 @@
     tools:context="chengcheng.leaguage.SignUp"
     android:background="@drawable/signup_background">
 
+        <EditText
+            android:id="@+id/userName_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="User Name"
+            android:background="@null"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
 
     <EditText
         android:id="@+id/email_edit_text"
@@ -21,8 +35,8 @@
         android:background="@null"
         android:paddingBottom="10dp"
         android:paddingTop="10dp"
-        android:layout_marginTop="39dp"
-        android:layout_alignParentTop="true"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/userName_edit_text"
         android:layout_alignParentStart="true" />
 
     <EditText
@@ -34,19 +48,193 @@
         android:paddingBottom="10dp"
         android:paddingTop="10dp"
         android:inputType="textPassword"
-        android:layout_marginTop="43dp"
+        android:layout_marginTop="10dp"
         android:layout_below="@+id/email_edit_text"
         android:layout_alignParentStart="true" />
 
-    <Button
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/password_edit_text"
+            android:background="@color/white">
+
+
+            <RelativeLayout
+                android:id="@+id/survey_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true">
+
+                <ImageView
+                    android:id="@+id/ic_survey"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/ic_survey" />
+
+                <TextView
+                    android:id="@+id/survey"
+                    android:layout_toRightOf="@+id/ic_survey"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  Take A Survey"
+                    android:textSize="20dp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Finding Right Course !"
+                    android:textSize="13dp"
+                    android:layout_below="@+id/survey"
+                    android:layout_alignEnd="@+id/survey" />
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/question_1"
+                android:layout_below="@+id/survey_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="1. Your current level of the target language"
+                android:textColor="@color/black" />
+
+            <LinearLayout
+                android:id="@+id/checkbox_q1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/question_1"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/noexperience_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No experience"
+                    android:textSize="10dp" />
+
+                <CheckBox
+                    android:id="@+id/beginner_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Beginner/Basic"
+                    android:textSize="10dp" />
+
+                <CheckBox
+                    android:id="@+id/goodcommand_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Good command"
+                    android:textSize="10dp" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/question_2"
+                android:layout_below="@id/checkbox_q1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="2. Your preferred learning time per day"
+                android:textColor="@color/black" />
+
+            <LinearLayout
+                android:id="@+id/checkbox_q2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/question_2"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/lessthan1_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="< 1 hour"
+                    android:textSize="10dp" />
+
+                <CheckBox
+                    android:id="@+id/twoto3_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2~3 hours"
+                    android:textSize="10dp" />
+
+                <CheckBox
+                    android:id="@+id/morethan3_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="> 3 hour"
+                    android:textSize="10dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/question_3"
+                android:layout_below="@id/checkbox_q2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="3. Your emphasis on the target language"
+                android:textColor="@color/black" />
+
+            <LinearLayout
+                android:id="@+id/checkbox_q3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/question_3"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/Listening_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Listening"
+                    android:textSize="10dp" />
+
+                <CheckBox
+                    android:id="@+id/Speaking_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Speaking"
+                    android:textSize="10dp" />
+
+                <CheckBox
+                    android:id="@+id/Reading_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Reading"
+                    android:textSize="10dp" />
+
+                <CheckBox
+                    android:id="@+id/Writing_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Writing"
+                    android:textSize="10dp" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Sign Up"
         android:id="@+id/signup_button"
         android:layout_marginTop="33dp"
+            android:layout_alignParentBottom="true"
         android:onClick="SignUp"
         android:layout_below="@+id/password_edit_text"
         android:layout_centerHorizontal="true"
         style="@style/ButtonAppTheme"/>
 
 </RelativeLayout>
+</ScrollView>
