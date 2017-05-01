@@ -54,9 +54,12 @@ public class SignUp extends AppCompatActivity {
                         if (!task.isSuccessful()) {
                             Toast.makeText(SignUp.this, task.getException().toString(), Toast.LENGTH_SHORT).show();
                         } else {
-                            String id = userName.getText().toString();
-                            User u = new User(userName, Integer.parseInt(userAge.getText().toString()), country.getText().toString(), );
-                            userRef.child(id).setValue(u);
+                            Toast.makeText(SignUp.this, task.getResult().getUser().getEmail() + " logged in successful",
+                                    Toast.LENGTH_SHORT).show();
+
+//                            String id = userName.getText().toString();
+//                            User u = new User(userName, Integer.parseInt(userAge.getText().toString()), country.getText().toString(), );
+//                            userRef.child(id).setValue(u);
 
                             finish();
 //                            FirebaseUser user = auth.getCurrentUser();
