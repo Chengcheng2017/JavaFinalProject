@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:id="@+id/activity_sign_up"
         android:layout_width="match_parent"
@@ -13,6 +13,7 @@
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
         tools:context="chengcheng.leaguage.SignUp">
 
 
@@ -75,11 +76,12 @@
             android:paddingTop="10dp" />
 
 
-        <RelativeLayout
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/country_edit_text"
-            android:background="@color/white">
+            android:background="@color/white"
+            android:orientation="vertical">
 
 
             <RelativeLayout
@@ -291,7 +293,7 @@
             </LinearLayout>
 
 
-        </RelativeLayout>
+        </LinearLayout>
 
         <Button
             android:id="@+id/signup_button"
@@ -305,5 +307,5 @@
             android:onClick="SignUp"
             android:text="Sign Up" />
 
-    </RelativeLayout>
+    </LinearLayout>
 </ScrollView>

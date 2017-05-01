@@ -18,8 +18,8 @@
         <activity android:name=".Recommendation" />
         <activity android:name=".LearningP.LearningPath" />
         <activity android:name=".Friends" />
-        <activity android:name=".SplashActivity" />
-        <activity android:name=".CourseDe.CourseDetails">
+        <activity android:name=".CourseDe.CourseDetails" />
+        <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
