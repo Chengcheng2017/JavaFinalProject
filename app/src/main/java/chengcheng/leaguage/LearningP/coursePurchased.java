@@ -1,5 +1,6 @@
 package chengcheng.leaguage.LearningP;
 
+import android.annotation.TargetApi;
 import android.content.Context;
 import android.util.AttributeSet;
 import android.widget.FrameLayout;
@@ -26,6 +27,7 @@ public class coursePurchased extends FrameLayout {
         init();
     }
 
+    @TargetApi(21)
     public coursePurchased(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
         super(context, attrs, defStyleAttr, defStyleRes);
         init();

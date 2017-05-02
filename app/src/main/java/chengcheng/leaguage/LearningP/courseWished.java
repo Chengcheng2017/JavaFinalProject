@@ -1,5 +1,6 @@
 package chengcheng.leaguage.LearningP;
 
+import android.annotation.TargetApi;
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 import android.util.AttributeSet;
@@ -35,6 +36,7 @@ public class courseWished extends FrameLayout {
         init();
     }
 
+    @TargetApi(21)
     public courseWished(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
         super(context, attrs, defStyleAttr, defStyleRes);
         init();

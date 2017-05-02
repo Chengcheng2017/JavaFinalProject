@@ -8,27 +8,17 @@ import java.util.ArrayList;
 
 public class Course {
     public String name;
-    public String intro;
-    public int imageId;
+    public String learned;
+    public String imageId;
+    private String price;
 
     public Course() {
     }
 
-    public Course(String name, String intro, int imageId) {
+    public Course(String name, String learned, String imageId, String price) {
         this.name = name;
-        this.intro = intro;
+        this.learned = learned;
         this.imageId = imageId;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public String getIntro() {
-        return intro;
-    }
-
-    public int getImageId() {
-        return imageId;
+        this.price = price;
     }
 }
