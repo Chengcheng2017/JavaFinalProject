@@ -31,8 +31,8 @@ public class Recommendation extends AppCompatActivity {
 
     private void initialData() {
         courses = new ArrayList<>();
-        courses.add(new Course("Intro to English", "200", R.drawable.c1));
-        courses.add(new Course("Grammar", "100", R.drawable.c3));
+//        courses.add(new Course("Intro to English", "200", R.drawable.c1));
+//        courses.add(new Course("Grammar", "100", R.drawable.c3));
     }
 
 

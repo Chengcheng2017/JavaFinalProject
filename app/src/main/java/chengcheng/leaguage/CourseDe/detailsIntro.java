@@ -8,7 +8,7 @@ import android.widget.FrameLayout;
 import chengcheng.leaguage.R;
 
 /**
- * Created by chengchengwang on 4/29/17.
+ * Created by chengchengwang on 5/1/17.
  */
 
 public class detailsIntro extends FrameLayout {

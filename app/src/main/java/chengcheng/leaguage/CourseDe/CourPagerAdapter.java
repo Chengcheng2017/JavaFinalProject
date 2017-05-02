@@ -4,9 +4,7 @@ import android.support.v4.view.PagerAdapter;
 import android.view.View;
 import android.view.ViewGroup;
 
-import chengcheng.leaguage.LearningP.coursePurchased;
-import chengcheng.leaguage.LearningP.courseWished;
-
+/**
 /**
  * Created by chengchengwang on 4/29/17.
  */
