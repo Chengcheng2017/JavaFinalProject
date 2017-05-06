@@ -28,7 +28,7 @@ public class TabPagerAdapter extends PagerAdapter {
     @Override
     public Object instantiateItem(ViewGroup container, int position) {
         View view;
-        switch (position){
+        switch (position) {
             case 0:
                 view = new coursePurchased(container.getContext());
                 break;

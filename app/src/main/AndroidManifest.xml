@@ -26,9 +26,9 @@
             android:label="Learning Path"/>
         <activity android:name=".Friends"
             android:label="Friends"/>
-        <activity android:name=".SplashActivity"
+        <activity android:name=".CourseDe.CourseDetails"
             android:label="Course Details"/>
-        <activity android:name=".CourseDe.CourseDetails">
+        <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
