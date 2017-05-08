@@ -2,6 +2,7 @@ package chengcheng.leaguage.LearningP;
 
 import android.annotation.TargetApi;
 import android.content.Context;
+import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.AttributeSet;
 import android.widget.FrameLayout;
@@ -16,10 +17,10 @@ import chengcheng.leaguage.R;
  */
 
 public class courseWished extends FrameLayout {
-    private DatabaseReference courseReference = FirebaseDatabase.getInstance().getReference("course");
+    private RecyclerView recyclerView2;
+    private courseAdapter courseAdapter2;
 
-    private RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
-    private courseAdapter courseAdapter  = new courseAdapter(courseReference);
+    private DatabaseReference courseReference = FirebaseDatabase.getInstance().getReference("courses");
 
     public courseWished(Context context) {
         super(context);
@@ -44,6 +45,10 @@ public class courseWished extends FrameLayout {
 
     public void init() {
         inflate(getContext(), R.layout.course_wish_list, this);
-        //recyclerView.setAdapter(courseAdapter);
+        recyclerView2 = (RecyclerView) findViewById(R.id.recycler_view_wish);
+        recyclerView2.setHasFixedSize(true);
+        recyclerView2.setLayoutManager(new LinearLayoutManager(getContext()));
+        courseAdapter2 = new courseAdapter(courseReference);
+        recyclerView2.setAdapter(courseAdapter2);
     }
 }

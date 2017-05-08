@@ -21,6 +21,7 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.List;
 
+import chengcheng.leaguage.CourseDe.CourseDetails;
 import chengcheng.leaguage.Profile;
 import chengcheng.leaguage.R;
 
@@ -105,6 +106,11 @@ public class HomePage extends AppCompatActivity {
         mViewPager2 = (ViewPager) findViewById(R.id.viewPager_popular);
         mViewPager2.setAdapter(new MyPagerAdapter());
         mViewPager2.setCurrentItem(0);
+    }
+
+    public void course_display(View view) {
+        Intent intent = new Intent(this, CourseDetails.class);
+        startActivity(intent);
     }
 
     class MyPagerAdapter extends PagerAdapter {

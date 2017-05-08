@@ -14,17 +14,19 @@
         android:layout_weight="1"
         android:orientation="horizontal">
 
-        <Spinner
-            android:id="@+id/languageList"
+        <ImageView
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_alignParentTop="true"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:src="@drawable/ic_sort"
+            android:paddingRight="3dp"
+            android:paddingLeft="2dp"/>
 
         <ImageView
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="7"
+            android:layout_weight="9"
             android:src="@drawable/searchbar" />
     </LinearLayout>
 

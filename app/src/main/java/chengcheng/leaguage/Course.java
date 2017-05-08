@@ -9,16 +9,14 @@ import java.util.ArrayList;
 public class Course {
     public String name;
     public String learned;
-    public String imageId;
-    private String price;
+    public String img;
 
     public Course() {
     }
 
-    public Course(String name, String learned, String imageId, String price) {
+    public Course(String name, String learned, String img) {
         this.name = name;
         this.learned = learned;
-        this.imageId = imageId;
-        this.price = price;
+        this.img = img;
     }
 }

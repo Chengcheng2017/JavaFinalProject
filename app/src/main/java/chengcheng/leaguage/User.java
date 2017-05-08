@@ -7,21 +7,20 @@ import java.util.ArrayList;
  */
 
 public class User {
-    private String name;
-    private int age;
-    private String country;
+    public String name;
+    public int age;
+    public String country;
     private ArrayList<Course> purchasedCourses;
     private ArrayList<Course> wishCourse;
-    private String email;
 
 
-    public User(String name, int age, String country, ArrayList<Course> purchasedCourses, ArrayList<Course> wishCourse, String email) {
+
+    public User(String name, int age, String country, ArrayList<Course> purchasedCourses, ArrayList<Course> wishCourse) {
         this.name = name;
         this.age = age;
         this.country = country;
         this.purchasedCourses = purchasedCourses;
         this.wishCourse = wishCourse;
-        this.email = email;
     }
 
     public User() {

@@ -5,12 +5,15 @@ package chengcheng.leaguage;
  */
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import chengcheng.leaguage.CourseDe.CourseDetails;
 
 public class CourseViewHolder extends RecyclerView.ViewHolder {
 
@@ -32,11 +35,15 @@ public class CourseViewHolder extends RecyclerView.ViewHolder {
     public void bind(final Course course) {
         courseNameText.setText(course.name);
         courseInfoText.setText(course.learned);
-        coursePic.setImageResource(Integer.parseInt(course.imageId));
+        coursePic.setImageResource(Integer.parseInt(course.img));
         cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(context, courseNameText.getText(), Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(context, CourseDetails.class);
+                intent.putExtra("NAME", course.name);
+                intent.putExtra("LEARNED", course.learned);
+                intent.putExtra("IMAGE", course.img);
+                context.startActivity(intent);
             }
         });
 

@@ -31,13 +31,12 @@
             android:layout_height="wrap_content"
             android:hint="Password"
             android:inputType="textPassword" />
-
         <EditText
-            android:id="@+id/userName_edit_text"
+            android:id="@+id/password_edit_username"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="User Name"
-            android:paddingTop="10dp" />
+            android:hint="Name"
+            android:inputType="textPassword" />
 
         <EditText
             android:id="@+id/age_edit_text"
@@ -277,7 +276,7 @@
         </LinearLayout>
 
         <Button
-            android:id="@+id/signup_button"
+            android:id="@+id/signUp_button"
             style="@style/ButtonAppTheme"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -285,7 +284,7 @@
             android:layout_below="@+id/password_edit_text"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="33dp"
-            android:onClick="SignUp"
+            android:onClick="signUp"
             android:text="Sign Up" />
 
     </LinearLayout>
