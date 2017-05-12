@@ -45,7 +45,7 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:background="@color/colorPrimary"
-        android:text="Join the Course"
+        android:text="@string/join_the_course"
         android:textColor="@color/white"
         android:textSize="18dp"
         android:textAllCaps="false"/>

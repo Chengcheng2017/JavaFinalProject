@@ -21,7 +21,7 @@
             android:id="@+id/email_edit_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Email"
+            android:hint="@string/email"
             android:inputType="textEmailAddress"
             android:paddingTop="10dp" />
 
@@ -29,27 +29,27 @@
             android:id="@+id/password_edit_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Password"
+            android:hint="@string/email"
             android:inputType="textPassword" />
         <EditText
             android:id="@+id/password_edit_username"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Name"
+            android:hint="@string/Name"
             android:inputType="textPassword" />
 
         <EditText
             android:id="@+id/age_edit_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Age"
+            android:hint="@string/Age"
             android:paddingTop="10dp" />
 
         <EditText
             android:id="@+id/country_edit_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Country"
+            android:hint="@string/Country"
             android:paddingTop="10dp" />
 
 
@@ -81,7 +81,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_toRightOf="@+id/ic_survey"
-                    android:text="  Take A Survey"
+                    android:text="@string/take_a_survey"
                     android:textColor="@color/black"
                     android:textSize="20dp"
                     android:paddingLeft="10dp"/>
@@ -91,7 +91,7 @@
                     android:layout_height="wrap_content"
                     android:layout_alignEnd="@+id/survey"
                     android:layout_below="@+id/survey"
-                    android:text="Finding Right Course !"
+                    android:text="@string/finding_right_course"
                     android:textSize="13dp"
                     android:paddingLeft="10dp"/>
             </RelativeLayout>
@@ -103,7 +103,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/survey_heading"
                 android:layout_marginTop="10dp"
-                android:text="1. Your current level of the target language"
+                android:text="@string/_1_your_current_level_of_the_target_language"
                 android:textColor="@color/black" />
 
             <LinearLayout
@@ -118,21 +118,21 @@
                     android:id="@+id/noexperience_checkbox"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="No experience"
+                    android:text="@string/no_experience"
                     android:textSize="10dp" />
 
                 <CheckBox
                     android:id="@+id/beginner_checkbox"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Beginner/Basic"
+                    android:text="@string/beginner_basic"
                     android:textSize="10dp" />
 
                 <CheckBox
                     android:id="@+id/goodcommand_checkbox"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Good command"
+                    android:text="@string/good_command"
                     android:textSize="10dp" />
 
 
@@ -144,7 +144,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/checkbox_q1"
                 android:layout_marginTop="10dp"
-                android:text="2. Your preferred learning time per day"
+                android:text="@string/_2_your_preferred_learning_time_per_day"
                 android:textColor="@color/black" />
 
             <LinearLayout
@@ -159,21 +159,21 @@
                     android:id="@+id/lessthan1_checkbox"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="hour"
+                    android:text="@string/_1_hour"
                     android:textSize="10dp" />
 
                 <CheckBox
                     android:id="@+id/twoto3_checkbox"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="2~3 hours"
+                    android:text="@string/_2_3_hours"
                     android:textSize="10dp" />
 
                 <CheckBox
                     android:id="@+id/morethan3_checkbox"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="hour"
+                    android:text="@string/_3_hour"
                     android:textSize="10dp" />
 
             </LinearLayout>
@@ -184,7 +184,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/checkbox_q2"
                 android:layout_marginTop="10dp"
-                android:text="3. Your emphasis on the target language"
+                android:text="@string/_3_your_emphasis_on_the_target_language"
                 android:textColor="@color/black" />
 
             <LinearLayout
@@ -199,28 +199,28 @@
                     android:id="@+id/Listening_checkbox"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Listening"
+                    android:text="@string/listening"
                     android:textSize="10dp" />
 
                 <CheckBox
                     android:id="@+id/Speaking_checkbox"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Speaking"
+                    android:text="@string/speaking"
                     android:textSize="10dp" />
 
                 <CheckBox
                     android:id="@+id/Reading_checkbox"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Reading"
+                    android:text="@string/reading"
                     android:textSize="10dp" />
 
                 <CheckBox
                     android:id="@+id/Writing_checkbox"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Writing"
+                    android:text="@string/writing"
                     android:textSize="10dp" />
 
             </LinearLayout>
@@ -231,7 +231,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/checkbox_q3"
                 android:layout_marginTop="10dp"
-                android:text="4. Your expected total learning duration"
+                android:text="@string/_4_your_expected_total_learning_duration"
                 android:textColor="@color/black" />
 
             <LinearLayout
@@ -246,28 +246,28 @@
                     android:id="@+id/onemonth_checkbox"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="month"
+                    android:text="@string/_1_month"
                     android:textSize="10dp" />
 
                 <CheckBox
                     android:id="@+id/twoto3month_checkbox"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="2~3 months"
+                    android:text="@string/_2_3_months"
                     android:textSize="10dp" />
 
                 <CheckBox
                     android:id="@+id/fourto6month_checkbox"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="4~6 months"
+                    android:text="@string/_4_6_months"
                     android:textSize="10dp" />
 
                 <CheckBox
                     android:id="@+id/morethan6_checkbox"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="months"
+                    android:text="@string/_6_months"
                     android:textSize="10dp" />
 
             </LinearLayout>
@@ -285,7 +285,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="33dp"
             android:onClick="signUp"
-            android:text="Sign Up" />
+            android:text="@string/sign_up" />
 
     </LinearLayout>
 </ScrollView>

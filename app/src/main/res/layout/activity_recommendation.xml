@@ -20,7 +20,7 @@
             android:layout_height="match_parent"
            android:gravity="center"
             android:fontFamily="serif"
-            android:text=" Courses Recommended"
+            android:text="@string/courses_recommended"
             android:textColor="@color/white"
             android:textSize="20dp"
 
@@ -235,7 +235,7 @@
         style="@style/ButtonAppTheme"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:text="Add course to Wishlist" />
+        android:text="@string/add_course_to_wishlist" />
     </LinearLayout>
 
 </LinearLayout>

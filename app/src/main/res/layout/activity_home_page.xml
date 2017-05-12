@@ -80,7 +80,7 @@
                     android:layout_height="34dp"
                     android:layout_weight="30"
                     android:background="@color/lightGrey"
-                    android:text="  You Might be Interested in"
+                    android:text="@string/you_might_be_interested_in"
                     android:textColor="@color/darkFont"
                     android:textSize="@dimen/text_small" />
             </LinearLayout>
@@ -127,7 +127,7 @@
                     android:layout_height="34dp"
                     android:layout_weight="30"
                     android:background="@color/lightGrey"
-                    android:text="  Popular Courses"
+                    android:text="@string/popular_courses"
                     android:textColor="@color/darkFont"
                     android:textSize="@dimen/text_small" />
             </LinearLayout>

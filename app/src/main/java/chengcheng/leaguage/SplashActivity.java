@@ -25,7 +25,6 @@ public class SplashActivity extends AppCompatActivity {
             @Override
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
                 FirebaseUser user = firebaseAuth.getCurrentUser();
-                Log.v("cccc",user.getUid().toString());
                 if (user != null)
                     startActivity(new Intent(SplashActivity.this, HomePage.class));
                 else

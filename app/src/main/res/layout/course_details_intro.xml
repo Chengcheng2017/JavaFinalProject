@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:layout_marginTop="10dp"
-        android:text="Advanced English"
+        android:text="@string/advanced_english"
         android:textColor="@color/black"
         android:textSize="22dp" />
 
@@ -20,7 +20,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="15dp"
-        android:text="345 learned"
+        android:text="@string/_345_learned"
         android:textColor="@color/lightDark"
         android:textSize="14dp" />
 
@@ -41,7 +41,7 @@
         android:id="@+id/de_course_introduction"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Course Introduction"
+        android:text="@string/course_introduction"
         android:textColor="@color/darkFont"
         android:textSize="20dp"
         android:paddingBottom="5dp"
@@ -51,7 +51,7 @@
         android:id="@+id/de_course_intro_con"
         android:layout_width="match_parent"
         android:layout_height="70dp"
-        android:text="Welocome to Advance English! Join us to start a brand new journey!"
+        android:text="@string/welocome_to_advance_english_join_us_to_start_a_brand_new_journey"
         android:textColor="@color/darkFont"
         android:textSize="16dp" />
 
@@ -61,7 +61,7 @@
         android:id="@+id/de_course_target"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Target Students"
+        android:text="@string/target_students"
         android:textColor="@color/darkFont"
         android:textSize="20dp"
         android:paddingBottom="5dp"
@@ -71,7 +71,7 @@
         android:id="@+id/de_course_target_con"
         android:layout_height="70dp"
         android:layout_width="match_parent"
-        android:text="This course is suitable for students who have took the course Intro to English."
+        android:text="@string/this_course_is_suitable_for_students_who_have_took_the_course_intro_to_english"
         android:textColor="@color/darkFont"
         android:textSize="16dp" />
 

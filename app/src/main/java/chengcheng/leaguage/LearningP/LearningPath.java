@@ -13,8 +13,11 @@ import com.google.firebase.database.FirebaseDatabase;
 import chengcheng.leaguage.R;
 
 public class LearningPath extends AppCompatActivity {
-    private ViewPager viewPager;
-    private TabLayout tabLayout;
+    private RecyclerView recyclerView;
+    private courseAdapter courseAdapter;
+
+    private DatabaseReference courseReference = FirebaseDatabase.getInstance().getReference("courses");
+
 
 
 
@@ -23,17 +26,21 @@ public class LearningPath extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_learning_path);
 
-        viewPager=(ViewPager)findViewById(R.id.viewPager);
-        tabLayout=(TabLayout)findViewById(R.id.tabs);
+        recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
+        recyclerView.setHasFixedSize(true);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        courseAdapter = new courseAdapter(courseReference);
 
-        viewPager.setAdapter(new TabPagerAdapter());
-        tabLayout.setupWithViewPager(viewPager);
+        recyclerView.setAdapter(courseAdapter);
 
-   }
+
+
+    }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
+        courseAdapter.cleanup();
     }
 
 }

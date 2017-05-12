@@ -1,4 +1,53 @@
 <resources>
     <string name="app_name">Leaguage</string>
+    <string name="join_the_course">Join the Course</string> 
+    <string name="you_might_be_interested_in">You Might be Interested in</string> 
+    <string name="popular_courses">Popular Courses</string> <string name="email">Email</string> 
+    <string name="password">Password</string> <string name="log_in">Log In</string> 
+    <string name="leaguage">LEAGUAGE</string> <string name="create_account">Create Account</string> 
+    <string name="log_in_with_email">Log In with Email</string> 
+    <string name="friends">Friends</string> <string name="learning_path">Learning Path</string> 
+    <string name="courses_recommended">Courses Recommended</string> <string name="intro_to_english">Intro to English</string>
+     <string name="learned_150">150 learned</string> <string name="grammar">Grammar</string> 
+    <string name="_890_learned">890 learned</string> <string name="listening_1">Listening 1</string>
+     <string name="_890_learned2">890 learned</string> <string name="speaking_1">Speaking 1</string>
+     <string name="_76_learned">76 learned</string> <string name="add_course_to_wishlist">Add course to Wishlist</string>
+     <string name="Email">Email</string> <string name="Password">Password</string> 
+    <string name="Name">Name</string> <string name="Age">Age</string> 
+    <string name="Country">Country</string> <string name="take_a_survey">Take A Survey</string> 
+    <string name="finding_right_course">Finding Right Course !</string> 
+    <string name="_1_your_current_level_of_the_target_language">1. Your current level of the target language</string>
+     <string name="no_experience">No experience</string> <string name="beginner_basic">Beginner/Basic</string>
+     <string name="good_command">Good command</string> 
+    <string name="_2_your_preferred_learning_time_per_day">2. Your preferred learning time per day</string>
+     <string name="_2_3_hours">2~3 hours</string> <string name="_3_hour">3+ hour</string> 
+    <string name="_1_hour">-1 hour</string> <string name="_4_your_expected_total_learning_duration">4. Your expected total learning duration</string>
+     
+    <string name="_3_your_emphasis_on_the_target_language">3. Your emphasis on the target language</string>
+     <string name="listening">Listening</string> <string name="speaking">Speaking</string> 
+    <string name="reading">Reading</string> <string name="writing">Writing</string> 
+    <string name="_1_month">-1 month</string> <string name="_2_3_months">2~3 months</string> 
+    <string name="_4_6_months">4~6 months</string> <string name="_6_months">6+ months</string> 
+    <string name="sign_up">Sign Up</string> 
+    <string name="advanced_english">Advanced English</string> <string name="_345_learned">345 learned</string>
+     <string name="course_introduction">Course Introduction</string> 
+    <string name="welocome_to_advance_english_join_us_to_start_a_brand_new_journey">Welocome to Advance English! Join us to start a brand new journey!</string>
+     <string name="target_students">Target Students</string> 
+    <string name="this_course_is_suitable_for_students_who_have_took_the_course_intro_to_english">This course is suitable for students who have took the course Intro to English.</string>
+     <string name="intro_to_english1">Intro to English</string> <string name="french_for_beginners">French for beginners</string>
+     <string name="grammar1">Grammar</string> 
+    <string name="english_advance">English Advance</string> <string name="french">French</string> 
+    <string name="grammar2">Grammar</string> 
+    <string name="intro_to_chinese">Intro to Chinese</string> <string name="chinese_grammar">Chinese Grammar</string>
+     <string name="spoken">Spoken</string> 
+    <string name="advanced_english1">Advanced English</string> <string name="advancesd_french">Advancesd French</string>
+     <string name="business_english">Business English</string> <string name="intro_to_chinese1">Intro to Chinese</string>
+     <string name="chinese_grammar1">Chinese Grammar</string> <string name="spoken1">Spoken</string>
+     <string name="intro_to_english12">Intro to English</string> 
+    <string name="french_for_beginners1">French for beginners</string> 
+    <string name="log_in_">Log In</string> <string name="profile_">Profile</string> 
+    <string name="sign_up_">Sign Up</string> <string name="recommendation">Recommendation</string> 
+    <string name="learning_path1">Learning Path</string> <string name="friends_">Friends</string> 
+    <string name="course_detials_">Course Details</string>
 
 </resources>

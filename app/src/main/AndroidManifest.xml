@@ -21,7 +21,7 @@
             android:label="Profile"/>
         <activity android:name=".SignUp"
             android:label="Sign Up"/>
-        <activity android:name=".Recommendation"
+        <activity android:name=".Welcome"
             android:label="Recommendation"/>
         <activity android:name=".LearningP.LearningPath"
             android:label="Learning Path"/>
@@ -29,7 +29,7 @@
             android:label="Friends"/>
         <activity android:name=".CourseDe.CourseDetails"
             android:label="Course Details"/>
-        <activity android:name=".Welcome">
+        <activity android:name=".Recommendation">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

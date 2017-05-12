@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="join_the_course">加入课程</string> 
+    <string name="you_might_be_interested_in">你可能感兴趣</string> 
+    <string name="popular_courses">受欢迎课程</string> <string name="email">邮件</string> 
+    <string name="password">密码</string> <string name="log_in">登录</string> <string name="leaguage">LEAGUAGE</string>
+     <string name="create_account">创建帐号</string> <string name="log_in_with_email">邮件登录</string> 
+    <string name="friends">好友</string> <string name="learning_path">学习足迹</string> 
+    <string name="courses_recommended">课程推荐</string> <string name="intro_to_english">英语入门</string> 
+    <string name="learned_150">150已学</string> <string name="grammar">语法</string> 
+    <string name="_890_learned">890已学</string> <string name="listening_1">听力1</string> 
+    <string name="_890_learned2">890已学</string> <string name="speaking_1">口语1</string> 
+    <string name="_76_learned">76已学</string> <string name="add_course_to_wishlist">将课程加入心愿单</string>
+     <string name="Email">邮件</string> <string name="Password">密码</string> 
+    <string name="Name">姓名</string> <string name="Age">年龄</string> 
+    <string name="Country">国家</string> <string name="take_a_survey">问卷调查</string> 
+    <string name="finding_right_course">找到适合的课程！</string> 
+    <string name="_1_your_current_level_of_the_target_language">1.你的目标语言的掌握程度</string> 
+    <string name="no_experience">毫无经验</string> <string name="beginner_basic">初学者</string> 
+    <string name="good_command">熟练掌握</string> 
+    <string name="_2_your_preferred_learning_time_per_day">2.你偏爱的每天学习时间</string> 
+    <string name="_2_3_hours">2~3小时</string> <string name="_3_hour">3+小时</string> 
+    <string name="_1_hour">-1小时</string> <string name="_4_your_expected_total_learning_duration">4.你期望的学习时长</string>
+     <string name="_3_your_emphasis_on_the_target_language">3.你对目标语言的期望</string> 
+    <string name="listening">听力</string> <string name="speaking">口语</string> <string name="reading">阅读</string>
+     <string name="writing">写作</string> <string name="_1_month">-1 月</string> 
+    <string name="_2_3_months">2~3 月</string> <string name="_4_6_months">4~6 月</string> 
+    <string name="_6_months">6+ 月</string> <string name="sign_up">注册</string> 
+    <string name="advanced_english">进阶英语</string> <string name="_345_learned">345已学</string> 
+    <string name="course_introduction">课程介绍</string> 
+    <string name="welocome_to_advance_english_join_us_to_start_a_brand_new_journey">欢迎来到进阶英语！加入我们开启新旅程！</string>
+     <string name="target_students">Target Students</string> 
+    <string name="this_course_is_suitable_for_students_who_have_took_the_course_intro_to_english">此课程适合已学过英语入门课程的学生。</string>
+     <string name="intro_to_english1">英语入门</string> 
+    <string name="french_for_beginners">法语入门</string> <string name="grammar1">语法</string> 
+    <string name="english_advance">进阶英语</string> <string name="french">法语</string> 
+    <string name="grammar2">语法</string> <string name="intro_to_chinese">中文入门</string> 
+    <string name="chinese_grammar">中文语法</string> <string name="spoken">口语</string> 
+    <string name="advanced_english1">进阶英语</string> <string name="advancesd_french">进阶法语</string> 
+    <string name="business_english">商务英语</string> <string name="intro_to_chinese1">中文入门</string> 
+    <string name="chinese_grammar1">中文语法r</string> <string name="spoken1">口语</string> 
+    <string name="intro_to_english12">英语入门</string> 
+    <string name="french_for_beginners1">法语入门</string> <string name="log_in_">登录</string> 
+    <string name="profile_">个人资料</string> <string name="sign_up_">注册</string> 
+    <string name="recommendation">推荐</string> <string name="learning_path1">学习路径</string> 
+    <string name="friends_">好友</string> <string name="course_detials_">课程信息</string>  
+</resources>
